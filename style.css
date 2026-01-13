@@ -1,21 +1,40 @@
 .divbtn {
-    margin: 0.5em;
+    margin: 0em;
 }
 
 .btn {
     width: 200px;
     height: 40px;
     font-size: 30px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    border: solid 3px black;
 }
 
-.btn1 {
-    width: 250px;
+.buttons {
+    width: 100%;
+    height: 100%;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-grow: 0;
+}
+
+.btn4 {
+    width: 400px;
     height: 45px;
     font-size: 30px;
-    background-color: black;
+    background-color: grey;
     color: white;
-    border: solid 3px white;
+    border: solid 3px black;
+    margin-right: 25em;
+    flex-shrink: 0;
+    border-radius: 5px;
 }
+
 body {
     background-color: black;
+    display: flex;
 }
