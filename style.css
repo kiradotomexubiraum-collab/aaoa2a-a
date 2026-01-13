@@ -1,0 +1,21 @@
+.divbtn {
+    margin: 0.5em;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+}
+
+.btn1 {
+    width: 250px;
+    height: 45px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: solid 3px white;
+}
+body {
+    background-color: black;
+}
