@@ -3,13 +3,15 @@
 }
 
 .btn {
-    width: 200px;
+    width: 195px;
     height: 40px;
     font-size: 30px;
     border-radius: 5px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.493);
     color: white;
-    border: solid 3px black;
+    border: solid 3px rgba(128, 128, 128, 0.493);
+    flex-grow: 1;
+    
 }
 
 .buttons {
@@ -19,16 +21,16 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    flex-grow: 0;
+    flex-grow: 1;
 }
 
 .btn4 {
-    width: 400px;
+    width: 390px;
     height: 45px;
     font-size: 30px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.493);
     color: white;
-    border: solid 3px black;
+    border: solid 3px rgba(128, 128, 128, 0.493);
     margin-right: 25em;
     flex-shrink: 0;
     border-radius: 5px;
